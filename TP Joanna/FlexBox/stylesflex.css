@@ -1,0 +1,135 @@
+img
+{
+	vertical-align: middle;
+}
+
+/* coprs du site */
+body, html
+{
+	width:100%;
+ 	height:100%;
+ 	margin: 0px;
+}
+
+#container
+{
+	display: flex;
+	flex-direction: column;
+	color: blue;
+	background-color: blue;
+	width:100%;
+ 	height:100%;
+}
+
+/* BLOC 1 */
+.rectangle {
+ width:83%;
+ height:200px;
+ background:white;
+}
+
+#bloc1
+{
+	display : flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+/* BLOC 2 */
+
+.rect1 {
+ width: 250px;
+ height:150px;
+ background:red;
+}
+
+.rect2 {
+ width: 250px;
+ height:150px;
+ background:red;
+}
+
+.rect3 {
+ width: 250px;
+ height:150px;
+ background:red;
+}
+
+#bloc2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+/* BLOC 3 */
+
+.rect4 {
+ width: 600px;
+ height:250px;
+ background:orange;
+}
+
+.rect5 {
+ width: 600px;
+ height:250px;
+ background:orange;
+}
+
+#bloc3
+{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+/* BLOC 4 */
+.rect6 {
+ width: 600px;
+ height:350px;
+ background:green;
+}
+
+.rect7 {
+ width: 600px;
+ height:350px;
+ background:green;
+}
+
+#bloc4
+{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+/* BLOC 5 */
+.rect8 {
+ width: 250px;
+ height:100px;
+ background:pink;
+}
+
+.rect9 {
+ width: 250px;
+ height:100px;
+ background:pink;
+}
+
+#bloc5
+{
+	display: flex;
+}
+
+/* BLOC 6 */
+.rect10 {
+ width: 250px;
+ height:100px;
+ background:pink;
+}
+
+#bloc6
+{
+	display: flex;
+}

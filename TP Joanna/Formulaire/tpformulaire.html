@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<link rel="stylesheet" href="stylesformulaire.css">
+
+<body>
+
+	<form action="#" method="post">
+		<div id="form">
+			<div>
+				<h1> Reproduire ce formulaire</h1>
+			</div>
+
+			<div id="identifiant">
+				<div>
+					<label for="mail"> Email </label><br>
+					<input type="email" id="mail" name="user_mail" size="40" placeholder="Email">
+				</div>
+
+				<div>
+					<label for="mdp"> Password </label><br>
+					<input name="mot_de_passe" type="password" id="mot_de_passe" size="35" placeholder ="password" />
+				</div>
+			</div>
+
+			<div id="adress">
+				<div>
+			          <label>Adress</label>
+			          <input id="rue" name="rue" type="text" size="82" placeholder ="1234 Main St"/> <br />
+			    </div>
+			    <div>
+			          <label>Adress 2</label>
+			          <input id="rue" name="rue" type="text" size="82" placeholder ="Apartment, studio, or floor" /><br />
+			    </div>
+			</div>
+
+			<div id="localisation">
+		        <div>
+		        	<label>City</label><br>
+		        	<input id="ville" name="ville" type="text" size="40" />
+				</div>
+				<div>
+					<label for="state"> State </label><br>
+						<select nature="select" id="select">
+							<option value="0">Sydney</option>
+							<option value="1">Melbourne</option>
+							<option value="2">Perth</option>
+							<option value="3">Cairns</option>
+							<option value="4">Darwin</option>
+						</select>
+				</div>
+
+		        <div>
+		          <label>Zip</label><br>
+		          <input id="code-postal" name="code-postal" type="text" size="20" /><br />
+     			</div>
+     		</div>
+
+			<div id="check">
+				<label for="checkbox">
+					  <input type="checkbox" name="cb" value="true" checked> Check me out<br>
+				</form>
+			</div>
+
+			<div>
+				<button type="submit" form="form1" value="Submit">Sign in</button>
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>

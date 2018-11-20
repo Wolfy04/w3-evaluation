@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<!-- Création d'un drapeau -->
+	<head>
+		<title> Canvas </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="stylecanvas.css">
+	</head>
+
+	<body>
+		<canvas id="drapeau" width="1000" height="1000"></canvas>
+
+		<script>
+
+			var tp = document.getElementById('drapeau'); // ouverture d'un nouveau fichier
+			var dpx = tp.getContext ('2d'); // selection de la variable et du stylo
+
+			dpx.fillStyle = "#8EBFFF"
+			dpx.fillRect(20,40,320,80);
+			dpx.fillStyle = "white"
+			dpx.fillRect(20,120,320,10);
+			dpx.fillStyle = "black"
+			dpx.fillRect(20,130,320,40);
+			dpx.fillStyle = "white"
+			dpx.fillRect(20,170,320,10);
+			dpx.fillStyle = "#8EBFFF"
+			dpx.fillRect(20,180,320,80);
+
+
+		</script>
+
+
+	</body>
+</html>

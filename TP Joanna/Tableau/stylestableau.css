@@ -1,0 +1,117 @@
+table
+{
+	border : solid;
+	border-collapse: collapse;
+	border-color: white;
+	border-width: 3px;
+	font-weight: bold;
+	font-family: Calibri light, sans-serif;
+	margin-left: 20px;
+}
+
+thead
+{
+	font-size: 10px;
+}
+
+tr
+{
+	border-width: 2px;
+	text-align: left;
+	border-top: whitesmoke 1px solid;
+}
+
+th
+{
+	border-width: 2px;
+	width: 170px; 
+	height :2;
+	font-family: Calibri bold, sans-serif;
+}
+
+td
+{
+	border-width: 2px;
+	width: 170px; 
+	height :20px;
+	text-align: left;
+}
+
+
+#ligne1
+{
+	background-color: white;
+    color: black;
+    padding: 40px;
+}
+
+#ligne2
+{
+	background-color: #CBCBCB;
+    color: black;
+    text-align: left;
+}
+
+#ligne3
+{
+	background-color: white;
+    color: black;
+    text-align: left;
+}
+
+#ligne4
+{
+	background-color: #CFDBFF;
+    color: black;
+    text-align: left;
+}
+
+#ligne5
+{
+	background-color: #CBCBCB;
+    color: black;
+    text-align: left;
+}
+
+#ligne6
+{
+	background-color: #BFF7AA;
+    color: black;
+    text-align: left;
+}
+
+#ligne7
+{
+	background-color: #FAACC0;
+    color: black;
+    text-align: left;
+}
+
+#ligne8
+{
+	background-color: #FFF5AF;
+    color: black;
+    text-align: left;
+}
+
+#ligne9
+{
+	background-color: #CFDBFF;
+    color: black;
+    text-align: left;
+}
+
+#ligne10
+{
+	background-color: white;
+    color: black;
+    text-align: left;
+}
+
+#ligne11
+{
+	background-color: #CBCBCB;
+    color: white;
+    text-align: left;
+	border-top :2px solid grey;
+}
